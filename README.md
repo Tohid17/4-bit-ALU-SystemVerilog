@@ -105,6 +105,97 @@ The following waveform is included from the original project report and illustra
 
 ## Documentation
 
+
+---
+
+## Design Specifications
+
+| Parameter | Description |
+|---|---|
+| Design | 4-bit Arithmetic Logic Unit |
+| Input operands | Two 4-bit inputs (A and B) |
+| Opcode width | 3 bits |
+| Supported operations | 8 |
+| Output | 4-bit result |
+| Status flags | Carry, Zero, Negative, Overflow |
+| Design type | Combinational logic |
+
+## Supported ALU Operations
+
+| Opcode | Operation |
+|:---:|---|
+| 000 | Addition |
+| 001 | Subtraction |
+| 010 | AND |
+| 011 | OR |
+| 100 | XOR |
+| 101 | NOT |
+| 110 | Shift Left |
+| 111 | Shift Right |
+
+## Tools and Technologies
+
+- Verilog / SystemVerilog RTL design
+- ModelSim simulation
+- Testbench development
+- FPGA hardware implementation
+- Functional verification
+
+## Repository Structure
+
+```text
+4-bit-ALU-SystemVerilog/
+│
+├── README.md
+├── alu_4bit.v
+├── alu_4bit_tb.v
+│
+└── docs/
+    ├── architecture.md
+    ├── results.md
+    ├── alu_architecture.png
+    ├── alu_block_diagram.png
+    ├── alu_simulation_waveform.png
+    │
+    ├── simulation_waveforms/
+    │   ├── waveform_addition.png
+    │   ├── waveform_subtraction.png
+    │   ├── waveform_and.png
+    │   ├── waveform_or.png
+    │   ├── waveform_xor.png
+    │   ├── waveform_not.png
+    │   ├── waveform_shift_left.png
+    │   └── waveform_shift_right.png
+    │
+    └── fpga_images/
+        ├── fpga_addition.png
+        ├── fpga_subtraction.png
+        ├── fpga_and.png
+        ├── fpga_or.png
+        ├── fpga_xor.png
+        ├── fpga_not.png
+        ├── fpga_shift_left.png
+        └── fpga_shift_right.png
+
+## Detailed Documentation
+
+- [ALU Architecture](docs/architecture.md)
+- [Simulation Results and FPGA Implementation](docs/results.md)
+- [ALU Block Diagram](docs/alu_block_diagram.png)
+- [ALU Architecture Diagram](docs/alu_architecture.png)
+- [Overall Simulation Waveform](docs/alu_simulation_waveform.png)
+
+## Key Learning Outcomes
+
+- Understanding RTL design of combinational circuits.
+- Implementing arithmetic and logical operations using Verilog.
+- Developing testbenches for functional verification.
+- Analysing simulation waveforms.
+- Understanding FPGA-based hardware implementation.
+
+---
+
+
 For more details about the project, refer to:
 
 - [ALU Architecture](docs/architecture.md)
