@@ -59,16 +59,7 @@ Simulation waveforms are used to observe and verify the corresponding ALU output
 | Negative | Indicates the MSB of the result |
 | Overflow | Indicates signed arithmetic overflow |
 
-## Project Structure
 
-```text
-4-bit-ALU-SystemVerilog/
-├── alu_4bit.v
-├── alu_4bit_tb.v
-├── README.md
-└── docs/
-    ├── architecture.md
-    └── results.md
 ```
 
 ## Author
