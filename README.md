@@ -40,21 +40,15 @@ This project focuses on the RTL design and functional verification of a 4-bit Ar
 - RTL Design
 - Functional Verification
 
-## Project Architecture
-
-The ALU consists of three major functional units:
-
-1. Arithmetic Unit
-2. Logical Unit
-3. Shift Unit
-
-An operation selection mechanism selects the appropriate output based on the 3-bit opcode.
 
 ## Verification
 
-A testbench was developed to apply different input combinations and opcode selections to verify all eight ALU operations.
+A testbench was developed to verify all eight ALU operations using fixed input operands and sequential opcode selection.
 
-The simulation results were analyzed using ModelSim waveforms.
+The input operands A = 0110 and B = 0011 are applied, while the opcode changes from 000 to 111.
+
+Simulation waveforms are used to observe and verify the corresponding ALU outputs.
+
 
 ## Status Flags
 
@@ -193,12 +187,6 @@ The following waveform is included from the original project report and illustra
 - Analysing simulation waveforms.
 - Understanding FPGA-based hardware implementation.
 
----
 
-
-For more details about the project, refer to:
-
-- [ALU Architecture](docs/architecture.md)
-- [Simulation Results](docs/results.md)
 
 ---
