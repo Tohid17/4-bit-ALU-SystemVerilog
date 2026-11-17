@@ -60,7 +60,6 @@ Simulation waveforms are used to observe and verify the corresponding ALU output
 | Overflow | Indicates signed arithmetic overflow |
 
 
-```
 
 ## Author
 
