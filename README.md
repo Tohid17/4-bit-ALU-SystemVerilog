@@ -84,3 +84,30 @@ Tohid Bijalikhan
 Electronics Engineering
 VLSI Design and Technology
 
+
+---
+
+## Architecture and Block Diagram
+
+### ALU Block Diagram
+
+![4-bit ALU Block Diagram](docs/alu_block_diagram.png)
+
+### ALU Architecture
+
+![4-bit ALU Architecture](docs/alu_architecture.png)
+
+## Simulation Waveform
+
+The following waveform is included from the original project report and illustrates the ALU operations for the applied test inputs.
+
+![ALU Simulation Waveform](docs/alu_simulation_waveform.png)
+
+## Documentation
+
+For more details about the project, refer to:
+
+- [ALU Architecture](docs/architecture.md)
+- [Simulation Results](docs/results.md)
+
+---
